@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Kithunu Mithura by Blog by True God</title>
+<meta name="description" content="Projects by Blog by True God, including the Kithunu Mithura Bible app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Serif+4:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="dot"></span>kithunu mithura</a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="policy.html">Policy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom:32px;">
+    <div class="wrap">
+      <p class="eyebrow">Index</p>
+      <h1 style="font-size:clamp(2rem,4vw,2.8rem);">Projects</h1>
+      <p class="lede">Kithunu Mithura is the main app built and maintained under Blog by True God. Its full feature set is listed below.</p>
+    </div>
+  </section>
+
+  <section style="border-top:none; padding-top:0;">
+    <div class="wrap">
+      <div class="project-grid" style="grid-template-columns:1fr;">
+        <div class="spec-card bracketed" style="max-width:720px;">
+          <span class="bl"></span><span class="br"></span>
+          <span class="id">app · kithunu mithura</span>
+          <h3 style="font-size:1.6rem;">Kithunu Mithura</h3>
+          <p class="desc">An offline-first Bible app for Android combining Scripture, hymns, personal notes, and daily reminders in a single lightweight app.</p>
+          <div class="stack-tags">
+            <span>Android</span><span>Kotlin</span><span>Room DB</span>
+            <span>WorkManager</span><span>App Widgets</span>
+          </div>
+          <div class="spec-meta">
+            <span class="status-pill status-live">Live on Google Play</span>
+            <span>Developer: Blog by True God</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-head" style="margin-top:56px;">
+        <div>
+          <p class="eyebrow">Feature breakdown</p>
+          <h2>What's inside the app</h2>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <div class="spec-card bracketed">
+          <span class="bl"></span><span class="br"></span>
+          <span class="id">module · scripture</span>
+          <h3>Sinhala Bible (Old Version)</h3>
+          <p class="desc">Full offline text of the traditional Sinhala Old Version Bible, organized by book and chapter for quick reading.</p>
+          <div class="stack-tags"><span>Offline</span><span>Sinhala</span></div>
+          <div class="spec-meta"><span class="status-pill status-live">Included</span><span>Full text</span></div>
+        </div>
+
+        <div class="spec-card bracketed">
+          <span class="bl"></span><span class="br"></span>
+          <span class="id">module · scripture</span>
+          <h3>English Bible (KJV)</h3>
+          <p class="desc">The complete King James Version, stored locally so it's available without any internet connection.</p>
+          <div class="stack-tags"><span>Offline</span><span>English</span></div>
+          <div class="spec-meta"><span class="status-pill status-live">Included</span><span>Full text</span></div>
+        </div>
+
+        <div class="spec-card bracketed">
+          <span class="bl"></span><span class="br"></span>
+          <span class="id">module · worship</span>
+          <h3>Sinhala Hymns</h3>
+          <p class="desc">A hymn collection for personal devotion and congregational singing, browsable by title or number.</p>
+          <div class="stack-tags"><span>Offline</span><span>Sinhala</span></div>
+          <div class="spec-meta"><span class="status-pill status-live">Included</span><span>Hymn book</span></div>
+        </div>
+
+        <div class="spec-card bracketed">
+          <span class="bl"></span><span class="br"></span>
+          <span class="id">module · reflection</span>
+          <h3>Notebook</h3>
+          <p class="desc">A simple, private notebook inside the app for jotting reflections, prayer requests, or sermon notes.</p>
+          <div class="stack-tags"><span>Local storage</span></div>
+          <div class="spec-meta"><span class="status-pill status-live">Included</span><span>On-device only</span></div>
+        </div>
+
+        <div class="spec-card bracketed">
+          <span class="bl"></span><span class="br"></span>
+          <span class="id">module · reminders</span>
+          <h3>Daily verse notification</h3>
+          <p class="desc">A scheduled notification delivers a new verse each day, encouraging a consistent reading habit.</p>
+          <div class="stack-tags"><span>Notifications</span><span>WorkManager</span></div>
+          <div class="spec-meta"><span class="status-pill status-live">Included</span><span>Daily</span></div>
+        </div>
+
+        <div class="spec-card bracketed">
+          <span class="bl"></span><span class="br"></span>
+          <span class="id">module · widget</span>
+          <h3>Home screen widget</h3>
+          <p class="desc">A resizable widget shows today's verse directly on the home screen, no app launch needed.</p>
+          <div class="stack-tags"><span>App widget</span></div>
+          <div class="spec-meta"><span class="status-pill status-live">Included</span><span>Home screen</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Blog by True God. Built with plain HTML for GitHub Pages.</p>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="policy.html">Site policy</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
