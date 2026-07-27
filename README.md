@@ -1,1 +1,1 @@
-# blogbytruegod.github.oi
+# blogbytruegod.github.io
