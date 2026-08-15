@@ -359,6 +359,82 @@ section + section{ border-top: 1px solid var(--line); }
 }
 
 /* ============================================================
+   FAQ page
+   ============================================================ */
+.faq-item{
+  padding: 32px 0;
+  border-top: 1px solid var(--line);
+}
+.faq-item:first-child{ border-top: none; padding-top: 0; }
+.faq-tag{
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin: 0 0 8px;
+}
+.faq-item h2{ font-size: 1.35rem; margin-bottom: 14px; }
+.faq-item > p{ max-width: 680px; }
+
+.fix-block{
+  background: var(--paper);
+  color: var(--ink-navy-deep);
+  border-radius: var(--radius);
+  padding: 22px 24px 20px;
+  margin-top: 20px;
+  max-width: 700px;
+}
+.fix-block h3{
+  color: var(--ink-navy-deep);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 14px;
+}
+.step-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: step-counter;
+}
+.step-list li{
+  counter-increment: step-counter;
+  position: relative;
+  padding: 10px 0 10px 38px;
+  border-bottom: 1px dashed rgba(11,37,69,0.18);
+  color: rgba(11,37,69,0.85);
+  font-size: 0.95rem;
+}
+.step-list li:last-child{ border-bottom: none; }
+.step-list li::before{
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--ink-navy-deep);
+  color: var(--amber);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step-list a{ color: var(--teal); text-decoration: underline; }
+.fix-source{
+  margin-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: rgba(11,37,69,0.55);
+}
+.fix-source a{ color: var(--teal); }
+
+/* ============================================================
    Policy page
    ============================================================ */
 .policy-body h2{ margin-top: 2.2em; }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — Kithunu Mithura</title>
+<meta name="description" content="Frequently asked questions and troubleshooting for Kithunu Mithura (Bible by True God), including how to fix Sinhala Text-to-Speech.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Serif+4:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../"><span class="dot"></span>kithunu mithura</a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="../">Home</a></li>
+        <li><a href="../projects/">Projects</a></li>
+        <li><a href="../about/">About</a></li>
+        <li><a href="../policy/">Policy</a></li>
+        <li><a href="../faq/" aria-current="page">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom:16px;">
+    <div class="wrap">
+      <p class="eyebrow">Help</p>
+      <h1 style="font-size:clamp(2rem,4vw,2.8rem);">Frequently Asked Questions</h1>
+      <p class="lede">Common questions about Kithunu Mithura, plus fixes for the most reported issues.</p>
+    </div>
+  </section>
+
+  <section style="border-top:none; padding-top:0;">
+    <div class="wrap" style="max-width:760px;">
+
+      <div class="faq-item">
+        <p class="faq-tag">Issue #1 · Text-to-Speech</p>
+        <h2>Why isn't Sinhala Text‑to‑Speech working, or why does it sound wrong?</h2>
+        <p>This almost always happens because the Sinhala voice hasn't been downloaded yet, or your phone is using a different TTS engine that doesn't support Sinhala well. Kithunu Mithura uses your Android phone's built‑in text‑to‑speech engine — it doesn't include its own voices — so this is a one‑time setup step on the phone itself, not something inside the app.</p>
+
+        <div class="fix-block bracketed">
+          <span class="bl"></span><span class="br"></span>
+          <h3>Fix 1 — Download the Sinhala voice data in Google TTS</h3>
+          <p style="margin:0 0 4px; color:rgba(11,37,69,0.75); font-size:0.9rem;">Most Android phones use Google's engine by default. You need to manually tell it to download the Sinhala voice files.</p>
+          <ol class="step-list">
+            <li>Open your phone's <strong>Settings</strong>.</li>
+            <li>Search for or navigate to <strong>System &gt; Languages &amp; input &gt; Text-to-speech output</strong> (on some phones, this is under <strong>Accessibility</strong>).</li>
+            <li>Tap the <strong>Settings icon (gear)</strong> next to <strong>Preferred engine</strong>, which should be <a href="https://play.google.com/store/apps/details?id=com.google.android.tts" target="_blank" rel="noopener">Speech Recognition &amp; Synthesis from Google</a>.</li>
+            <li>Tap <strong>Install voice data</strong>.</li>
+            <li>Scroll through the list, locate <strong>Sinhala (Sri Lanka)</strong> or <strong>si‑LK</strong>, and tap the download/arrow icon next to it.</li>
+            <li>Once downloaded, go back one screen, tap <strong>Language</strong>, and change it from <strong>Use system language</strong> explicitly to <strong>Sinhala</strong>.</li>
+          </ol>
+          <p class="fix-source">Source: <a href="https://voiceout.app/languages/sinhala/" target="_blank" rel="noopener">voiceout.app</a></p>
+        </div>
+
+        <div class="fix-block bracketed">
+          <span class="bl"></span><span class="br"></span>
+          <h3>Fix 2 — Check for manufacturer engine conflicts</h3>
+          <p style="margin:0 0 4px; color:rgba(11,37,69,0.75); font-size:0.9rem;">If you have a Samsung or Xiaomi device, your phone might be using the manufacturer's own TTS engine instead of Google's, which often has poor support for South Asian languages.</p>
+          <ol class="step-list">
+            <li>Go back to the <strong>Text-to-speech output</strong> menu in your settings.</li>
+            <li>Tap <strong>Preferred engine</strong>.</li>
+            <li>Switch it from <strong>Samsung Text-to-Speech</strong> (or another manufacturer engine) over to <strong>Speech Recognition &amp; Synthesis from Google</strong>.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-tag">General</p>
+        <h2>Does the app need an internet connection?</h2>
+        <p>No. The Sinhala Bible (SUV 1938) and English Bible (KJV 1611) are both bundled with the app, so reading, searching, highlighting, and note‑taking all work fully offline. An internet connection is only needed to download the app itself and, separately, to download voice data for text‑to‑speech (see Issue #1 above).</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-tag">General</p>
+        <h2>Is Kithunu Mithura free?</h2>
+        <p>Yes. The app has no ads, no in‑app purchases, and there's no intention to earn money from it. It was built as a free gift for a friend and shared for anyone's educational and personal use.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-tag">Privacy</p>
+        <h2>Are my notes, highlights, and bookmarks private?</h2>
+        <p>Yes. Everything you write or mark — notebook entries, highlights, and bookmarks — is stored only in local storage on your device. None of it is uploaded or sent anywhere. See the full <a href="../policy/">Privacy Policy</a> for details.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-tag">Roadmap</p>
+        <h2>Will more languages or a hymn book be added?</h2>
+        <p>Yes — German and Finnish translations are planned for future updates, along with a Sinhala Hymns book. Check the <a href="../projects/">Projects</a> page for the current feature list and what's coming soon.</p>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Blog by True God. Free &amp; non‑commercial — built with plain HTML for GitHub Pages.</p>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="../about/">About</a></li>
+        <li><a href="../projects/">Projects</a></li>
+        <li><a href="../policy/">Site policy</a></li>
+        <li><a href="../faq/">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
